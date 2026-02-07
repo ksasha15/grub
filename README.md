@@ -5,8 +5,8 @@
 - Попасть в систему без пароля несколькими способами.
 - Установить систему с LVM, после чего переименовать VG.
 
-root@Ubuntu22:~# nano /etc/default/grub
-root@Ubuntu22:~# head /etc/default/grub
+root@Ubuntu22:~# nano /etc/default/grub  
+root@Ubuntu22:~# head /etc/default/grub  
 \# If you change this file, run 'update-grub' afterwards to update
 \# /boot/grub/grub.cfg.
 \# For full documentation of the options in this file, see:
