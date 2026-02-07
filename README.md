@@ -5,7 +5,7 @@
 - Попасть в систему без пароля несколькими способами.
 - Установить систему с LVM, после чего переименовать VG.
 
-### Включить отображение меню Grub.
+#### Включить отображение меню Grub.
 ```
 root@Ubuntu22:~# nano /etc/default/grub  
 root@Ubuntu22:~# head /etc/default/grub  
@@ -39,3 +39,5 @@ The system will reboot now!
 
 root@Ubuntu22:~#
 ```
+####Попасть в систему без пароля несколькими способами
+<img width="667" height="415" alt="image" src="https://github.com/user-attachments/assets/a7143d36-d2e1-4959-8345-adc93ff42fc7" />
