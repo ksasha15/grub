@@ -4,13 +4,13 @@
 - Включить отображение меню Grub.
 - Попасть в систему без пароля несколькими способами.
 - Установить систему с LVM, после чего переименовать VG.
-
+```
 root@Ubuntu22:~# nano /etc/default/grub  
 root@Ubuntu22:~# head /etc/default/grub  
-\# If you change this file, run 'update-grub' afterwards to update
-\# /boot/grub/grub.cfg.
-\# For full documentation of the options in this file, see:
-\#   info -f grub -n 'Simple configuration'
+# If you change this file, run 'update-grub' afterwards to update
+# /boot/grub/grub.cfg.
+# For full documentation of the options in this file, see:
+#   info -f grub -n 'Simple configuration'
 
 GRUB_DEFAULT=0
 #GRUB_TIMEOUT_STYLE=hidden
@@ -36,3 +36,4 @@ Broadcast message from root@Ubuntu22 on pts/1 (Sat 2026-02-07 02:51:51 UTC):
 The system will reboot now!
 
 root@Ubuntu22:~#
+```
