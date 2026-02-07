@@ -6,7 +6,7 @@
 - Установить систему с LVM, после чего переименовать VG.
 
 ### Включить отображение меню Grub.
-  ```
+```
 root@Ubuntu22:~# nano /etc/default/grub  
 root@Ubuntu22:~# head /etc/default/grub  
 # If you change this file, run 'update-grub' afterwards to update
