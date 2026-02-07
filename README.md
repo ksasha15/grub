@@ -47,7 +47,8 @@ root@Ubuntu22:~#
 <img width="643" height="320" alt="image" src="https://github.com/user-attachments/assets/44e64845-7c65-4cc8-88ca-1b67146818d7" />
 
 #### Установить систему с LVM, после чего переименовать VG.
-```root@Ubuntu22:~# vgs
+```
+root@Ubuntu22:~# vgs
   VG        #PV #LV #SN Attr   VSize  VFree
   ubuntu-vg   1   1   0 wz--n- 18.22g 8.22g
 root@Ubuntu22:~# lvs
@@ -62,6 +63,16 @@ root@Ubuntu22:~# nano /boot/grub/grub.cfg
 root@Ubuntu22:~# reboot
 Broadcast message from root@Ubuntu22 on pts/1 (Sat 2026-02-07 04:31:55 UTC):
 The system will reboot now!
+
+root@Ubuntu22:~#
+root@Ubuntu22:~# vgs
+  VG          #PV #LV #SN Attr   VSize  VFree
+  ubuntu-otus   1   1   0 wz--n- 18.22g 8.22g
+root@Ubuntu22:~# lvs
+  LV        VG          Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  ubuntu-lv ubuntu-otus -wi-ao---- 10.00g                                        
+root@Ubuntu22:~# lvrename ubuntu-otus ubuntu-lv ubuntu-otus
+  Renamed "ubuntu-lv" to "ubuntu-otus" in volume group "ubuntu-otus"
 
 root@Ubuntu22:~#
 ```
