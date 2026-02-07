@@ -40,8 +40,11 @@ The system will reboot now!
 root@Ubuntu22:~#
 ```
 #### Попасть в систему без пароля несколькими способами
+1. Способ 1. init=/bin/bash
 <img width="667" height="415" alt="image" src="https://github.com/user-attachments/assets/64a716fc-ef73-4787-adc8-1a57b5b53246" />
 <img width="668" height="227" alt="image" src="https://github.com/user-attachments/assets/fd6a57c8-775f-4e37-84b5-8e0b082da6f5" />
+2. Способ 2. Recovery mode
+<img width="643" height="320" alt="image" src="https://github.com/user-attachments/assets/44e64845-7c65-4cc8-88ca-1b67146818d7" />
 
 #### Установить систему с LVM, после чего переименовать VG.
 
